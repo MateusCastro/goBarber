@@ -3,11 +3,12 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  extends: ['plugin:react/recommended', 'airbnb'],
+  extends: ['plugin:react/recommended', 'airbnb', 'prettier', 'prettier/react'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -24,11 +25,9 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'global-require': 'off',
     'react-native/no-raw-text': 'off',
-    'arrow-parens': [2, 'as-needed', { requireForBlockBody: true }],
     'no-param-reassign': 'off',
     'no-underscore-dangle': 'off',
     camelcase: 'off',
     'no-console': ['error', { allow: ['tron'] }],
-    'react/prop-types': ['error'],
   },
 };
