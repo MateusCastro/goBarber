@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# GoBarber
 
-## Available Scripts
+Aplicação ReactJS criada no curso Bootcamp GoStack da Rocketseat
 
-In the project directory, you can run:
+## Instalações
 
-### `yarn start`
+- [VS Code](https://code.visualstudio.com/)
+- [Node.js](https://nodejs.org/)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Plugins VSCode
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+- [VS Code Styled Components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 
-### `yarn test`
+## Bibliotecas utilizadas:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [axios](https://github.com/axios/axios)
+- [history](https://github.com/ReactTraining/history)
+- [immer](https://github.com/immerjs/immer)
+- [polished](https://github.com/styled-components/polished)
+- [prop-types](https://github.com/facebook/prop-types)
+- [react-icons](https://github.com/react-icons/react-icons)
+- [react-perfect-scrollbar](https://github.com/goldenyz/react-perfect-scrollbar)
+- [react-redux](https://github.com/reduxjs/react-redux)
+- [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+- [react-toastify](https://github.com/fkhadra/react-toastify)
+- [reactotron-react-js](https://github.com/infinitered/reactotron)
+- [reactotron-redux](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux.md)
+- [reactotron-redux-saga](https://github.com/infinitered/reactotron/blob/master/docs/plugin-redux-saga.md)
+- [redux](https://github.com/reduxjs/redux)
+- [redux-persist](https://github.com/rt2zz/redux-persist)
+- [redux-saga](https://github.com/redux-saga/redux-saga)
+- [styled-components](https://github.com/styled-components/styled-components)
+- [yup](https://github.com/jquense/yup)
 
-### `yarn build`
+## Bibliotecas de desenvolvimento:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [babel-eslint](https://github.com/babel/babel-eslint)
+- [eslint](https://github.com/eslint/eslint)
+- [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+- [eslint-plugin-import](https://github.com/benmosher/eslint-plugin-import)
+- [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y)
+- [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
+- [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
+- [eslint-plugin-react-hooks](https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks)
+- [prettier](https://github.com/prettier/prettier)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Iniciar o projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Instale as dependências:
 
-### `yarn eject`
+```
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Configure e execute a [goBarberAPI](https://github.com/MateusCastro/goBarberAPI)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+---
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Inicie a aplicação
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```
+yarn start
+```
